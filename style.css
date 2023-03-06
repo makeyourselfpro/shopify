@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+/* navigationbar */
+nav{
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  position:fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+  align-items: center;
+  color: aliceblue;
+}
+nav>div{
+  height: 70px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: aliceblue;
+    width: 15%;
+}
+nav>div>img{
+  height: 130px;
+  margin: 0;
+  padding: 0;
+}
+nav>li{
+  display: flex;
+  color: aliceblue;
+  justify-content: flex-end;
+}
+nav>ul,li{
+  width: 42%;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+padding: 10px;
+  color: aliceblue;
+  font-size: 20px;
+font-family: sans-serif;
+                text-shadow: 1px 1px 1px black;
+}
+button{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 20px;
+                box-shadow: 0px 0px 1px 1px rgb(251, 255, 0);
+}
+    /* < !-- navigationbar --> */
+
+
+    /* header  */
+    header{
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      border: 2px solid black;    
+    color: aliceblue;
+    padding-top: 70px;
+    }
+      
+    header>.text,.image{
+      height: 100%;
+      width: 50%;
+    }
+
+    header>.text{
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+    }
+    header>.text>h1{
+      font-size: 100px;
+      font-family: sans-serif;
+          margin: 20px 0px;
+                line-height: 100px;
+                text-shadow: 10px 1px 1px black;
+    }
+    header>.text>h5{
+      font-size: 25px;
+      line-height: 40px;
+     font-weight: 200;   
+          margin: 20px 0px; }
+    header>.text>h6 {
+      font-weight: 200;
+        font-size: 15px;
+          margin: 20px 0px;
+    }
+    header>.text>.input{
+          margin: 20px 0px;
+    }
+    header>.text>.input>input{
+      height: 50px;
+      font-size: 30px;
+      border: none;
+      border-radius: 50px;
+      padding: 30px;
+      width: 700px;
+      display: inline-block;
+      border: 1px solid gray;
+                text-shadow: 1px 1px 1px black;
+                box-shadow: 1px 1px 10px 5px black;    }
+        header>.text>.input>button {
+          margin-left: -211px;
+          padding: 10px;
+          font-size: 30px;
+                box-shadow: 1px 1px 10px 2px rgb(74, 73, 73);
+        }
+
+                header{
+                  background: url(Images/abc.jpg);
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                }
+
+                /* main content  */
+  .row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row1>.image{
+    width: 30%;
+    padding: 100px;
+    height: 600px;
+    background: url(Images/globe.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    .row1>.text {
+      width: 60%;
+      font-size: 21px;
+      display: flex;
+      margin-top: 50px;
+      flex-direction: column;
+    }
+    .row1>.text>.mini-text{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      font-size: 20px;
+    }
+        .row1>.text>.mini-text>ul{
+          padding: 50px;
+          border-left: 5px solid aqua;
+          line-height: 40px;
+          margin: 19px 30px;
+        }
+        /* row1 complete */
+
+        /* row2  */
+
+        .row2{
+          display: flex;
+          padding: 20px;
+          justify-content: space-around;
+        }
+        .row2>.card{
+          width: 18%;
+          background-color: aliceblue;
+          padding: 30px;
+          line-height: 26px;
+          margin: 5px;
+          border-radius: 10px;
+          box-shadow: 0px 0 3px 1px gray;
+        }
+
+        /* row 2 */
+
+
+
+        /* row3 */
+
+        
+                /* row3 */
